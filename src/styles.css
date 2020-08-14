@@ -1,0 +1,47 @@
+body {
+  background-color: #bbf1c8;
+  font-family: "Roboto", sans-serif;
+}
+
+header button {
+  padding: 12px;
+  display: inline-block;
+  margin: 10px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.showcase {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-img {
+  height: 180px;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  /* max-width: 350; */
+  margin: auto;
+  max-height: 400px;
+  width: 300px;
+  /* margin: 20px 5px; */
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 16px 70px -12.125px rgba(0, 0, 0, 0.3);
+}
+
+.card-action {
+  display: block;
+}
+
+/* Cart COMPONENT */
+.cart-items {
+  display: inline-block;
+}
